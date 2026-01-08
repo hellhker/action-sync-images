@@ -34,5 +34,5 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://hub.zentao.net/app/zentao:20.5 docker://registry.cn-shenzhen.aliyuncs.com/localtion_pqc/edifier:zentao_20.5
+        skopeo copy openjdk:17.0.2-jdk docker://registry.cn-shenzhen.aliyuncs.com/localtion_pqc/edifier:openjdk_1702
  
